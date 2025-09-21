@@ -1,5 +1,4 @@
 import { useState, useCallback, useEffect, useRef } from 'react'
-import backgroundImage from './src/assets/bg_passGen';
 
 function App() {
   const [length, setLength] = useState(8)
