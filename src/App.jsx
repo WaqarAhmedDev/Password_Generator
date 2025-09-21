@@ -38,12 +38,6 @@ function App() {
     passwordGenerator()
   }, [length, numberAllowed, charAllowed, passwordGenerator])
   return (
-        <div 
-      style={{ 
-        backgroundImage: `url(${backgroundImage})`,
-        backgroundSize: 'cover',
-        }}
-    >
     <div className=" w-full max-w-md mx-auto shadow-md mt-[15%] rounded-xl px-8 py-6 my-8
      bg-gray-700 text-white ">
       <h1 className='text-white text-center my-3'>Password generator</h1>
